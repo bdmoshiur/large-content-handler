@@ -1,0 +1,29 @@
+{
+    "name": "interlink-techsoft/large-content-handler",
+    "description": "A Laravel package to handle large file uploads and remove PHP limitations.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9|^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "InterlinkTechsoft\\LargeContentHandler\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InterlinkTechsoft\\LargeContentHandler\\LargeContentHandlerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Moshiur Rahman",
+            "email": "moshiurcse888@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
