@@ -12,4 +12,4 @@ A Laravel package to handle large file uploads and remove PHP limitations.
 
 ## Installation:
 ```bash
-composer require interlink-techsoft/large-content-handler
+composer require interlink-techsoft/large-content-handler:dev-main
